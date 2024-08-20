@@ -1,5 +1,5 @@
 # Labb1QA
-*Alla frågor som du kan ställa QA programmet
+##Alla frågor som du kan ställa QA programmet
 1. How do I reset my password?
 To reset your password, go to the login page and click on 'Forgot Password'. Then follow the
 instructions sent to your email.
