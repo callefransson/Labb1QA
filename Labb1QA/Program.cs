@@ -109,7 +109,7 @@ namespace Labb1QA
         }
         private static string DetectLanguage(TextAnalyticsClient client, string text)
         {
-            Azure.AI.TextAnalytics.DetectedLanguage detectedLanguage = client.DetectLanguage(text);
+            DetectedLanguage detectedLanguage = client.DetectLanguage(text);
             return detectedLanguage.Name;
         }
         private static async Task<string> TranslateTextToEnglish(HttpClient client, string text)
